@@ -74,7 +74,7 @@
           item:this.inputText,
           isDone:false
         }
-        const header=document.getElementById("header")
+       
         if(!this.inputText==''){
           this.todos.push(todo)
           localStorage.Todos=JSON.stringify(this.todos)
@@ -110,7 +110,7 @@
         
         },
         onAdd:function() {
-          console.log("update")
+          
             localStorage.Todos=JSON.stringify(this.todos)
             localStorage.TodosB=JSON.stringify(this.itemsB)
             this.header="HERO"
