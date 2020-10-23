@@ -6,7 +6,6 @@
     "dev": "node build/dev-server.js",
     "serve": "vue-cli-service serve",
     "build": "node build/build.js",
-    "lint": "node build/build.js",
     "start": "node server.js"
   },
   "dependencies": {
