@@ -156,20 +156,21 @@ body{
     flex-direction: row;
     margin: 10px;
     padding: 10px;
-    
     border: 1px solid #7f7f7f;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #dcdcdc;
   }
   .item:hover {
     cursor: grab;
+    background-color:#ffffff;
+    transition: all 0.3s;
   }
   .item:active {
     cursor: grabbing;
   }
   
   .fa-times{
-    color: white;
+    color: #dcdcdc;
     font-size:25px;
     padding-left:7px;
   }
