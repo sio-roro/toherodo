@@ -159,6 +159,7 @@ body{
     border: 1px solid #7f7f7f;
     border-radius: 10px;
     background-color: #dcdcdc;
+
   }
   .item:hover {
     cursor: grab;
@@ -167,8 +168,14 @@ body{
   }
   .item:active {
     cursor: grabbing;
+     background-color:#008b8b;
+     border:1px solid #008b8b;
+    
   }
-  
+  .item:active .fa-times{
+    color: #008b8b;
+    transition: all 0.3s;
+  }
   .fa-times{
     color: #dcdcdc;
     font-size:25px;
